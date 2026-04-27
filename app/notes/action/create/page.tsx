@@ -13,7 +13,11 @@ export const metadata: Metadata = {
     title: "NoteHub | Create note",
     description: "Сторінка NoteHub для створення нової нотатки.",
     url: `${getSiteUrl()}/notes/action/create`,
-    images: ["https://ac.goit.global/fullstack/react/notehub-og-meta.jpg"],
+    images: [
+      {
+        url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",
+      },
+    ],
   },
 };
 
